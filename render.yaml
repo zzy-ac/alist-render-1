@@ -11,33 +11,33 @@ services:
       - key: PORT
         value: 5244
       - key: DB_TYPE
-         value: postgres
+        # value: sqlite3
         sync: false
       - key: DB_HOST
-         value: dpg-caudtpvd17c9mq8btoag-a
+        # value: db_host
         sync: false
       - key: DB_PORT
-         value: 5432
+        # value: 3306
         sync: false
       - key: DB_USER
-         value: alist
+        # value: db_user
         sync: false
       - key: DB_PASS
-         value: cqNadWVG86mpHeIlPkBXnqjkN2SBuKwi
+        # value: db_password
         sync: false
       - key: DB_NAME
-         value: alist_ng2a
+        # value: db_name
         sync: false
       - key: DB_TABLE_PREFIX
-         value: wd
+        # value: alist_
         sync: false
       - key: ASSETS
-         value: https://cdn.dmnb.cf/npm/alist-web@$version/dist/
+        # value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
       - key: CACHE_EXPIRATION
-         value: 60
+        # value: 60
         sync: false
       - key: CLEANUP_INTERVAL
-         value: 120
+        # value: 120
         sync: false
       
