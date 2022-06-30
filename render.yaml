@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: alist-zzy
     env: docker
     repo: https://github.com/zzy-ac/alist-render-1.git # optional
     region: singapore # optional (defaults to oregon)
